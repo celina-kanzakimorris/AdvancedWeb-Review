@@ -1,0 +1,45 @@
+*{
+	box-sizing: border-box;
+}
+
+
+html, body{
+	min-height: 100%;
+}
+body{
+	background-color: black;
+}
+
+.menu {
+    background-color: antiquewhite;
+}
+
+.grid-parent{
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+.grid-item{
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 20px;
+}
+
+h4{
+    text-align: center;
+    text-decoration: underline;
+}
+
+.info p{
+    color: white;
+}
+
+.price {
+    font-size: 11px;
+        text-align: right;
+}
+
+img{
+    width: 100%;
+    border-radius: 50%;
+    float: right;
+}
